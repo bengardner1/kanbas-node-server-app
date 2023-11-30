@@ -7,7 +7,7 @@ import UserRoutes from "./users/routes.js";
 import "dotenv/config";
 import mongoose from "mongoose";
 import session from "express-session";
-const CONNECTION_STRING = "mongodb+srv://bengardner433:bladee333@cluster0.gv9wcmb.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_STRING = "mongodb+srv://bengardner433:bladee333@cluster0.gv9wcmb.mongodb.net/kanbas?retryWrites=true&w=majority";
 //const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas';
 mongoose.connect(CONNECTION_STRING);
 const app = express();
